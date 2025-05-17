@@ -17,7 +17,7 @@ public class SampleControllerTests {
     @Test
     public void testTestingMethod() throws Exception {
         // Perform a GET request to /sample and expect status 200 (OK)
-        mockMvc.perform(MockMvcRequestBuilders.get("/sample"))
+        mockMvc.perform(MockMvcRequestBuilders.get("/sample23"))
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 // Verify that the response body contains the expected text
                 .andExpect(MockMvcResultMatchers.content().string("hi buvanesh"));
